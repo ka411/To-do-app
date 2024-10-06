@@ -16,7 +16,7 @@ function addTask() {
 
         // Create the span for the delete icon
         let deleteIcon = document.createElement("span");
-        deleteIcon.innerHTML = "\u00d7"; // Unicode for the multiplication sign (×)
+        deleteIcon.innerHTML = "\u00d7"; // Unicode for the multiplication sign (×)//
         deleteIcon.className = "delete"; // Class for the delete button
         deleteIcon.onclick = function() {
             li.remove(); // Remove the list item
